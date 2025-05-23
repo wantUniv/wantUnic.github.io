@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系信息 - 个人联系方式</title>
+    <meta name="description" content="提供电话、地址和微信二维码等联系方式，方便您随时联系我们。">
+    <meta name="keywords" content="联系信息,联系方式,电话,地址,微信二维码">
+    <meta name="author" content="Jay">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://wantuniv.github.io/index.html">
+    
+    <!-- Open Graph / 社交媒体分享优化 -->
+    <meta property="og:title" content="联系信息 - 个人联系方式">
+    <meta property="og:description" content="提供电话、地址和微信二维码等联系方式，方便您随时联系我们。">
+    <meta property="og:url" content="https://wantuniv.github.io/index.html">
+    <meta property="og:type" content="website">
+    
+    <style>
+        /* 重置样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        /* 页面标题 */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        h1 {
+            font-size: 28px;
+            font-weight: normal;
+            color: #333333;
+        }
+        
+        /* 主体内容 */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .info-block {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+        
+        .info-label {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        
+        .info-content {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        
+        /* 二维码区域 */
+        .qrcode-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+        
+        .qrcode-image {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            margin: 20px 0;
+            border: 1px solid #eaeaea;
+        }
+        
+        .qrcode-tip {
+            font-size: 14px;
+            color: #888;
+            margin-top: 10px;
+        }
+        
+        /* 页脚 */
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+            padding-top: 20px;
+            border-top: 1px solid #eaeaea;
+        }
+        
+        /* 响应式设计 */
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            .info-content {
+                font-size: 18px;
+            }
+            
+            .qrcode-image {
+                width: 180px;
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>联系信息</h1>
+    </header>
+    
+    <main class="container">
+        <div class="info-block">
+            <div class="info-label">电话</div>
+            <div class="info-content">138-1234-5678</div>
+        </div>
+        
+        <div class="info-block">
+            <div class="info-label">地址</div>
+            <div class="info-content">上海市浦东新区XX路123号</div>
+        </div>
+        
+        <div class="info-block">
+            <div class="info-label">扫码关注</div>
+            <div class="qrcode-container">
+                <img src="ewm.jpg" alt="微信二维码" class="qrcode-image">
+                <div class="qrcode-tip">扫描上方二维码加我为朋友</div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html> 
